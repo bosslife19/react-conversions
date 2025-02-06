@@ -50,18 +50,18 @@ function HomePage() {
       <div className="bg-white rounded-md h-8 flex items-center">
         <select name="" id="" className="block w-full rounded-md">
           <option value="Sweden">Sweden</option>
-          <option value="Togo">Togo</option>
+
         </select>
       </div>
       <div className="md:flex gap-8 mt-5">
         <div className="flex-1">
-          <p className="text-texts">Send Amount</p>
+          <p className="text-texts">Send Amount (SEK)</p>
           <div className="bg-white rounded-md h-8 flex items-center">
             <input type='number' name="" id="" className="block w-full rounded-md"  onChange={e=>setSetAmount(e.target.value)}/>
           </div>
         </div>
         <div className="flex-1">
-          <p className="text-texts">Receiver's Amount</p>
+          <p className="text-texts">Receiver's Amount (SEK)</p>
           <div className="bg-white rounded-md h-8 flex items-center">
             <input name="" id="" className="block w-full rounded-md" type='number' value={sendAmount}/>
           </div>
