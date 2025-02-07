@@ -76,18 +76,18 @@ function HomePage() {
             src={cash}
             className="w-8 h-8 object-contain block mx-auto mt-3"
           />
-          <h3 className="text-white text-center mt-6">Cash</h3>
-          <h3 className="text-white text-center">Pay with Cash</h3>
-          <h3 className="text-white text-center">Fee: 0.00</h3>
+          <h3 className="text-white text-center mt-6 cursor-pointer">Cash</h3>
+          <h3 className="text-white text-center cursor-pointer">Pay with Cash</h3>
+          <h3 className="text-white text-center cursor-pointer">Fee: 0.00</h3>
         </div>
         <div className="bg-white md:w-[28%] mt-5 md:mt-0 rounded-md h-[200px] pt-5">
           <img
             src={wallet}
             className="w-8 h-8 object-contain block mx-auto mt-3"
           />
-          <h3 className="text-texts text-center mt-6">Mobile Wallet</h3>
-          <h3 className="text-appblue text-center">Pay with Cash</h3>
-          <h3 className="text-appblue text-center">Fee: 0.00</h3>
+          <h3 className="text-texts text-center mt-6 cursor-pointer">Mobile Wallet</h3>
+          <h3 className="text-appblue text-center cursor-pointer">Pay with Card</h3>
+          <h3 className="text-appblue text-center cursor-pointer">Fee: 0.00</h3>
         </div>
             </div>
         
@@ -98,33 +98,33 @@ function HomePage() {
             src={cash}
             className="w-8 h-8 object-contain block mx-auto mt-3"
           />
-          <h3 className="text-white text-center mt-6">Cash</h3>
-          <h3 className="text-white text-center">Pay with Cash</h3>
-          <h3 className="text-white text-center">Fee: 0.00</h3>
+          <h3 className="text-white text-center mt-6 cursor-pointer">Cash</h3>
+          <h3 className="text-white text-center cursor-pointer">Pay with Cash</h3>
+          <h3 className="text-white text-center cursor-pointer">Fee: 0.00</h3>
         </div>
         <div className="bg-white md:w-[28%] mt-5 md:mt-0 rounded-md h-[200px] pt-5">
           <img
             src={wallet}
             className="w-8 h-8 object-contain block mx-auto mt-3"
           />
-          <h3 className="text-texts text-center mt-6">Mobile Wallet</h3>
-          <h3 className="text-appblue text-center">Pay with Cash</h3>
-          <h3 className="text-appblue text-center">Fee: 0.00</h3>
+          <h3 className="text-texts text-center mt-6 cursor-pointer">Mobile Wallet</h3>
+          <h3 className="text-appblue text-center cursor-pointer">Pay with Card</h3>
+          <h3 className="text-appblue text-center cursor-pointer">Fee: 0.00</h3>
         </div>
         <div className="bg-white md:w-[28%] mt-5 md:mt-0 rounded-md h-[200px] pt-5">
           <img
             src={wallet}
             className="w-8 h-8 object-contain block mx-auto mt-3"
           />
-          <h3 className="text-texts text-center mt-6">Mobile Wallet</h3>
-          <h3 className="text-appblue text-center">Pay with Cash</h3>
-          <h3 className="text-appblue text-center">Fee: 0.00</h3>
+          <h3 className="text-texts text-center mt-6 cursor-pointer">Mobile Wallet</h3>
+          <h3 className="text-appblue text-center cursor-pointer">Pay with Cash</h3>
+          <h3 className="text-appblue text-center cursor-pointer">Fee: 0.00</h3>
         </div>
             </div>
 
             <div className="bg-white py-5 my-5 px-4 rounded-md">
                 <h2 className="text-texts text-center font-bold text-xl">Summary</h2>
-                <p className="text-texts">Exchange Rate: 1.00SEK = 137.3588 Nigerian Naira (NGN)</p>
+                <p className="text-texts">Exchange Rate: 2.5SEK = 1.00Peco</p>
                 <p className="text-texts">Transfer Amount:{sendAmount}.00SEK</p>
                 <p className="text-texts">Transfer Fee: {charge}.00SEK</p>
                 <p className="text-texts">Receiver Gets:{sendAmount}</p>
